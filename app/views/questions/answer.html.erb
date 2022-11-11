@@ -1,0 +1,16 @@
+<h1>Answer</h1>
+
+<form action="answer" data-turbo="false">
+  <input type="text" name="answer">
+  <input type="submit" value="Answer!">
+</form>
+
+<%# class PagesController < ApplicationController
+  def contact
+    @members = ["thanh", "dimitri", "germain", "damien", "julien"]
+
+    if params[:member]
+      @members = @members.select { |member| member.start_with?(params[:member]) }
+    end
+  end
+end %>

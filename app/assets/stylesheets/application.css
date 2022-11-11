@@ -13,3 +13,12 @@
  *= require_tree .
  *= require_self
  */
+blockquote {
+    border-left: 6px solid #cecaca;
+    margin: 16px;
+    padding: 14px;
+};
+
+.coach {
+  background-color: yellow;
+}
